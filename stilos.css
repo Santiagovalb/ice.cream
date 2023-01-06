@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section3 {
+background: #FFF5F6;
+    
+}
+
+.imagen{
+    
+    width: 501px;
+        height: 501px;
+        left: 16px;
+        top: 1953px;
+}
+.section-3{
+    display: flex;
+        justify-content: space-evenly;
+        background: url(./img/sectionbg1\ 1FONDO.svg);
+            
+             
+}
+
+.section-3 .vaca{
+    position: absolute;
+        width: 501px;
+        height: 501px;
+}
+
+.section-3 .contenido-textos{
+    width: 48%;
+}
+
+.titulo-h3{
+    color: #FFA5BA;
+    font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-family: 'Titan One';
+        text-align: center;
+}
+
+.titulo-h2{
+     display: inline-block;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-family: 'Titan One';
+        text-align: center;
+         color: #D41443;
+
+
+}
+.p1{
+    color: #000000;
+    font-family: 'DM Sans';
+        font-style: normal;
+}
+
+.contenido-textos{
+    
+        display: inline-block;
+        text-align: center;
+        
+}
+.contenido-textos .p1{ 
+       
+        margin-top: 90px;
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 176%;
+        /* or 28px */
+    
+        letter-spacing: 0.04em;
+        
+}
+
+.contenido-textos .p2{
+    margin-top: 70px;
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 194%;
+        /* or 27px */
+    
+        letter-spacing: 0.04em;
+        color: #907E82;
+
+}
+
+.boton{
+    margin-top: 60px;
+    margin-left: 80px;
+    background-color: #FFFFFF;
+    color:  #D41443;
+    border-radius: 22px;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+}
+.contenedor{
+    margin-top: 2100px;
+    display: flex;
+        width: 90%;
+        justify-content:start;
+        margin: auto;
+        padding-bottom: 50px;
+}
+.content-foo{
+    margin-top: 50px;
+}
