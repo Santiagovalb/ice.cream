@@ -6,6 +6,7 @@
 
 .section3 {
 background: #FFF5F6;
+
     
 }
 
@@ -15,11 +16,14 @@ background: #FFF5F6;
         height: 501px;
         left: 16px;
         top: 1953px;
+        
+        
 }
 .section-3{
     display: flex;
         justify-content: space-evenly;
-        background: url(./img/sectionbg1\ 1FONDO.svg);
+        background: url(./img/sectionbg1\ 1FONDO.svg) ;
+        
             
              
 }
@@ -32,26 +36,33 @@ background: #FFF5F6;
 
 .section-3 .contenido-textos{
     width: 48%;
+    
 }
 
 .titulo-h3{
-    color: #FFA5BA;
+font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
     font-size: 30px;
-        text-align: center;
-        margin-bottom: 60px;
-        font-family: 'Titan One';
-        text-align: center;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFA5BA;
 }
 
 .titulo-h2{
-     display: inline-block;
-        font-size: 30px;
-        text-align: center;
-        margin-bottom: 60px;
+     display:flow-root;
         font-family: 'Titan One';
-        text-align: center;
-         color: #D41443;
-
+            font-style: normal;
+            font-weight: 400;
+            font-size: 58px;
+            line-height: 66px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #D41443;
 
 }
 .p1{
@@ -96,7 +107,7 @@ background: #FFF5F6;
 
 .boton{
     margin-top: 60px;
-    margin-left: 80px;
+    margin-left:90px;
     background-color: #FFFFFF;
     color:  #D41443;
     border-radius: 22px;
@@ -106,16 +117,59 @@ background: #FFF5F6;
         display: flex;
         align-items: center;
         text-align: center;
+        padding: 13px 30px;
+        border-color: #FFF5F6;
 
 }
+
+
 .contenedor{
-    margin-top: 2100px;
     display: flex;
-        width: 90%;
-        justify-content:start;
-        margin: auto;
-        padding-bottom: 50px;
+    text-align: left;
+    justify-content: flex-start;
 }
 .content-foo{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 300px;
+    display: inline-block;
+
+    
+}
+.svg{
+    margin-right: 400px;
+}
+.p23{
+    
+        
+        top: 2685px;
+    
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 176%;
+        text-align: center;
+        
+        /* or 28px */
+    
+        letter-spacing: 0.02em;
+    
+        color: #000000;
+}
+
+.titulo-h23{
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Titan One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 66px;
+       
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    
+        color: #D41443;
 }
