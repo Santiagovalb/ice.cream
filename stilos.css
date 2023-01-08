@@ -1,46 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .section3 {
 background: #FFF5F6;
-
-    
+   
 }
 
 .imagen{
     
-    width: 501px;
-        height: 501px;
-        left: 16px;
-        top: 1953px;
-        
-        
+ width: 501px;
+ height: 501px;
+ margin-left:-80px;   
 }
 .section-3{
-    display: flex;
-        justify-content: space-evenly;
-        background: url(./img/sectionbg1\ 1FONDO.svg) ;
-        
-            
-             
+    
+ display: flex;
+ justify-content: space-evenly;
+ background: url(./img/sectionbg1\ 1FONDO.svg);       
 }
 
+
 .section-3 .vaca{
-    position: absolute;
-        width: 501px;
-        height: 501px;
+position: absolute;
+ width: 501px;
+height: 501px;
 }
 
 .section-3 .contenido-textos{
-    width: 48%;
+width: 48%;
     
 }
 
 .titulo-h3{
-font-family: 'Titan One';
+    
+    font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -53,8 +44,10 @@ font-family: 'Titan One';
 }
 
 .titulo-h2{
-     display:flow-root;
-        font-family: 'Titan One';
+            margin-top: 20px;
+            margin-bottom: 40px;
+            display:flow-root;
+             font-family: 'Titan One';
             font-style: normal;
             font-weight: 400;
             font-size: 58px;
@@ -65,21 +58,10 @@ font-family: 'Titan One';
             color: #D41443;
 
 }
-.p1{
-    color: #000000;
-    font-family: 'DM Sans';
-        font-style: normal;
-}
 
-.contenido-textos{
-    
-        display: inline-block;
-        text-align: center;
-        
-}
 .contenido-textos .p1{ 
        
-        margin-top: 90px;
+        margin-top: 70px;
     font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
@@ -88,19 +70,20 @@ font-family: 'Titan One';
         /* or 28px */
     
         letter-spacing: 0.04em;
+        color: #000000;
         
 }
 
 .contenido-textos .p2{
-    margin-top: 70px;
+    margin-top: 20px;
     font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 194%;
+            font-size: 14px;
+            line-height: 194%;
         /* or 27px */
     
-        letter-spacing: 0.04em;
+        letter-spacing: 0.06em;
         color: #907E82;
 
 }
@@ -126,12 +109,10 @@ font-family: 'Titan One';
 .contenedor{
     display: flex;
     text-align: left;
-    justify-content: flex-start;
+    
 }
 .content-foo{
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 300px;
+    margin-top: 50px;
     display: inline-block;
 
     
@@ -141,28 +122,21 @@ font-family: 'Titan One';
 }
 .p23{
     
-        
-        top: 2685px;
-    
-        font-family: 'DM Sans';
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 176%;
-        text-align: center;
+        float: left;
+        
         
         /* or 28px */
     
         letter-spacing: 0.02em;
     
-        color: #000000;
 }
 
 .titulo-h23{
-    margin-left: 0;
     margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: 'Titan One';
+    margin-bottom: 10px;
         font-style: normal;
         font-weight: 400;
         font-size: 58px;
